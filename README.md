@@ -10,7 +10,7 @@ To make a new day:
 1) Add a new `[[bin]]` section to `Cargo.toml`
 
 To run:
-: `$ cargo run --bin dayX`
+- `$ cargo run --bin dayX`
 
 To run fast:
-: `$ cargo run --release --bin dayX`
+- `$ cargo run --release --bin dayX`
