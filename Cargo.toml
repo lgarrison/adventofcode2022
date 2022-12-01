@@ -8,3 +8,7 @@ edition = "2021"
 [[bin]]
 name = "template"
 path = "src/template/main.rs"
+
+[[bin]]
+name = "day01"
+path = "src/day01/main.rs"
