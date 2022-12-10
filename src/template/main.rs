@@ -1,3 +1,5 @@
+#![allow(non_snake_case)]
+
 use std::fs;
 
 fn part1(txt: &str) -> i64 {
@@ -8,7 +10,6 @@ fn part2(_txt: &str) -> i64 {
     0
 }
 
-#[allow(non_snake_case)]
 fn main() {
     let dayX = env!("CARGO_BIN_NAME");
     let root = env!("CARGO_MANIFEST_DIR");
