@@ -5,6 +5,7 @@ edition = "2021"
 
 [dependencies]
 lazy_static = "1.4.0"
+regex = "1"
 
 [[bin]]
 name = "template"
@@ -65,3 +66,7 @@ path = "src/day13/main.rs"
 [[bin]]
 name = "day14"
 path = "src/day14/main.rs"
+
+[[bin]]
+name = "day15"
+path = "src/day15/main.rs"
